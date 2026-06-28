@@ -1,19 +1,15 @@
-# dev-scripts
+# repo-scripts
 
-Per-project launchers that open each repo in VS Code / IntelliJ IDEA with the
-Nix + home-manager environment loaded (JDK 17, sbt, maven, gradle on PATH +
-JAVA_HOME). Kept local (under ~/Code, never OneDrive) so they can't be offloaded.
+Top-level launchers that open each repo in VS Code / IntelliJ with the Nix env
+loaded (JDK 17/21, sbt, maven on PATH + JAVA_HOME). Local (under ~/Code), backed
+up to GitHub. Flat layout — **Raycast only scans the top level, not subfolders.**
 
-## Layout
-```
-<repo>/code.sh   # open <repo> in VS Code
-<repo>/idea.sh   # open <repo> in IntelliJ IDEA
-```
+## Files
+`<code>-code.sh` → VS Code · `<code>-idea.sh` → IntelliJ
+Codes: dh=datahub  ng=datahub-ng  ds=datasuite  dsg=datasuite_genai  ms=mac-setup
 
 ## Use
-- **Terminal:** `~/Code/repo-scripts/datahub/code.sh`
 - **Raycast:** Settings → Extensions → Script Commands → Add Script Directory →
-  `~/Code/repo-scripts`. Then search "Code datahub", "IDEA datasuite", etc.
-
-Projects: datahub (Java/Maven), datahub-ng (Scala/sbt), datasuite & datasuite_genai
-(read-only — open only), mac-setup (config repo).
+  `~/Code/repo-scripts`. Then search "dh code", "dh idea", "ng code", …
+- **Terminal:** shell functions are simpler — `dh`, `dh i`, `ng`, `ds`, `dsg`, `ms`
+  (or `o dh`, `o ng i`). The .sh files here are mainly for Raycast.
