@@ -11,9 +11,9 @@ JAVA_HOME). Kept local (under ~/Code, never OneDrive) so they can't be offloaded
 ```
 
 ## Use
-- **Terminal:** `~/Code/scripts/datahub/code.sh`
+- **Terminal:** `~/Code/repo-scripts/datahub/code.sh`
 - **Raycast:** Settings → Extensions → Script Commands → Add Script Directory →
-  `~/Code/scripts`. Then search "Code datahub", "IDEA datasuite", etc.
+  `~/Code/repo-scripts`. Then search "Code datahub", "IDEA datasuite", etc.
 
 Projects: datahub (Java/Maven), datahub-ng (Scala/sbt), datasuite & datasuite_genai
 (read-only — open only), mac-setup (config repo).
