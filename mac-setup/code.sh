@@ -1,6 +1,6 @@
 #!/bin/bash
 # @raycast.schemaVersion 1
-# @raycast.title Code · mac-setup
+# @raycast.title ms code
 # @raycast.mode silent
 # @raycast.packageName Dev Projects
 # @raycast.icon ⚙️

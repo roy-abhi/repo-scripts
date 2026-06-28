@@ -1,6 +1,6 @@
 #!/bin/bash
 # @raycast.schemaVersion 1
-# @raycast.title Code · datasuite_genai
+# @raycast.title dsg code
 # @raycast.mode silent
 # @raycast.packageName Dev Projects
 # @raycast.icon 🐍

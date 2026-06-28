@@ -1,6 +1,6 @@
 #!/bin/bash
 # @raycast.schemaVersion 1
-# @raycast.title Code · datahub-ng
+# @raycast.title ng code
 # @raycast.mode silent
 # @raycast.packageName Dev Projects
 # @raycast.icon 🔴
