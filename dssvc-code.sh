@@ -1,0 +1,13 @@
+#!/bin/bash
+# @raycast.schemaVersion 1
+# @raycast.title dssvc code
+# @raycast.mode silent
+# @raycast.packageName Dev Projects
+# @raycast.icon 🧩
+#
+# Opens datasuite-services in VS Code
+# with the Nix/home-manager env loaded (JDK, sbt, maven…). Works from Raycast
+# (searchable as "Code · datasuite-services") and from the terminal (just run this file).
+export PATH="/run/current-system/sw/bin:/etc/profiles/per-user/$USER/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
+command -v java >/dev/null 2>&1 && export JAVA_HOME="$(dirname "$(dirname "$(readlink -f "$(command -v java)")")")"
+"/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code" "/Users/abhishekroy/Code/work/Sapiens-Digital01/datasuite/datasuite-services"
