@@ -55,7 +55,7 @@ files here and the `o()` case table in `~/Documents/mac-setup/config/zsh/functio
 | Code | Repo / folder | Editors |
 |---|---|---|
 | `lab` | lab | code |
-| `qc` | query-console | code |
+| `qc` | query-console (private) | code |
 | `dhngd` | dh-ng-deploy | code |
 | `dhval` | datahub-validator-tui | code |
 | `friday` | friday | code |
